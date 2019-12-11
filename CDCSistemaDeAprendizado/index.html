@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="icon" type="image/png" href="img/PERFUMARIA.png">
+    <title>Carrinho de Compras</title>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    
+    <!-- Material Design for Bootstrap fonts and icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
+    
+    <!-- Material Design for Bootstrap CSS -->
+    <link rel="stylesheet"
+        href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css"
+        integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+    
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css"
+        integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+  </head>
+  <body class="body">
+    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title alinhar" id="exampleModalLongTitle">Forma de Pagamento</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <table>
+                        <tr>
+                            <td><input type="radio" name="marcar"> <img class="imagemPag" src="img/bandeiras-cartao-wirecard-2.png"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" name="marcar"><img class="imagemPag" src="img/concentracao-bancaria_03.png"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" name="marcar"> <img class="imagemBol" src="img/boleto.png"></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Comprar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar sticky-top navbar-dark navBar static-top">
+        <a class="navbar-brand" href="index.html">
+            <img src="img/PERFUMARIA.png" width="35" height="35" alt="">
+        </a>
+        <a class="navbar-brand" href="index.html">Lotus Branco</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+            aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home<span class="sr-only">(página atual)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <br>
+    <div class="container">
+        <div class="card-deck">
+            <div class="card">
+                <img class="card-img-top" src="img/perfume1.png" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Prada</h5>
+                    <p class="card-text">Perfume Feminino</p>
+                </div>
+                <div class="card-footer small">
+                    <big class="text-muted">R$ 200,00</big>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="img/perfume2.png" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">O Poder</h5>
+                    <p class="card-text">Juliana Paes.</p>
+                </div>
+                <div class="card-footer small">
+                    <big class="text-muted">R$ 150,00</big>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="img/perfume3.png" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Boss</h5>
+                    <p class="card-text">Hugo Boss.</p>
+                </div>
+                <div class="card-footer small">
+                    <big class="text-muted">R$ 170,00</big>
+                </div>
+            </div>
+        </div><br>
+        <div class="card-deck">
+            <div class="card">
+                <img class="card-img-top" src="img/perfume4.png" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Enigma</h5>
+                    <p class="card-text">Fragrancia Masculina.</p>
+                </div>
+                <div class="card-footer small">
+                    <big class="text-muted">R$ 250,00</big>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="img/perfume5.png" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Empire</h5>
+                    <p class="card-text">Hinode.</p>
+                </div>
+                <div class="card-footer small">
+                    <big class="text-muted">R$ 230,00</big>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="img/perfume6.png" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Ferrari Black.</h5>
+                    <p class="card-text">Eau de Toilette.</p>
+                </div>
+                <div class="card-footer small">
+                    <big class="text-muted">R$ 270,00</big>
+                </div>
+            </div>
+        </div>
+    </div><br>
+    <div class="accordion" id="accordionExample">
+        <div class="card">
+            <center>
+            <div class="card-header" id="headingOne">
+                <h4 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                        aria-expanded="true" aria-controls="collapseOne">
+                        Carrinho de Compras
+                    </button>
+                </h4>
+            </div>
+            </center>
+    
+            <div id="collapseOne" class="collapse show tabela" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th scope="col">Produto</th>
+                                <th scope="col">Descrição</th>
+                                <th scope="col">Preço Unit.</th>
+                                <th scope="col">Quantidade</th>
+                                <th scope="col">Preço Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row"><img src="img/perfume1.png" class="imagensC">
+                                </th>
+                                <td>Prada</td>
+                                <td>R$ 200,00</td>
+                                <td>
+                                    <input type="number" id="arlequina" onclick="calcularArlequina()">
+                                </td>
+                                <td>
+                                    <p id="totalArlequina"></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><img src="img/perfume2.png" class="imagensC"> </th>
+                                <td>O Poder</td>
+                                <td>R$ 150,00</td>
+                                <td>
+                                    <input type="number" id="enfermeira" onclick="calcularEnfermeira()">
+                                </td>
+                                <td>
+                                    <p id="totalEnfermeira"></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><img src="img/perfume3.png" class="imagensC"> </th>
+                                <td>Boss</td>
+                                <td>R$ 170,00</td>
+                                <td>
+                                    <input type="number" id="zumbi" onclick="calcularZumbi()">
+                                </td>
+                                <td>
+                                    <p id="totalZumbi"></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><img src="img/perfume4.png" class="imagensC"> </th>
+                                <td>Enigma</td>
+                                <td>R$ 250,00</td>
+                                <td><input type="number" id="bruxa" onclick="calcularBruxa()"></td>
+                                <td>
+                                    <p id="totalBruxa"></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><img src="img/perfume5.png" class="imagensC"></th>
+                                <td>Empire</td>
+                                <td>R$ 230,00</td>
+                                <td><input type="number" id="vampiro" onclick="calcularVampiro()"></td>
+                                <td>
+                                    <p id="totalVampiro"></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><img src="img/perfume6.png" class="imagensC"></th>
+                                <td>Ferrari Black</td>
+                                <td>R$ 270,00</td>
+                                <td><input type="number" id="vermelho" onclick="calcularVermelho()"></td>
+                                <td>
+                                    <p id="totalVermelho"></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><button type="button" class="btn btn-primary" onclick="calcularProduto()">Calcular</button></th>
+                                <td>Total</td>
+                                <td></td>
+                                <td id="totalProduto"></td>
+                                <td id="totalCompra"></td>
+                            </tr>
+                            <tr>
+                                <th></th>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <th scope="row"><button type="button" class="btn btn-danger" onclick="calcularProduto()" data-toggle="modal" data-target="#exampleModalLong">Finalizar Compra</button></th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div><br>
+    <div class="icone">
+        <a href="index.html">
+            <button type="button" class="btn btn-dark bmd-btn-fab icone">
+                <i class="material-icons">
+                    keyboard_arrow_up
+                </i>
+            </button>
+        </a>
+        </button>
+    </div>
+
+    <footer class="py-2 navBar alinhar">
+        <a href="contato.html">
+            <p class="text-white">Contate-nos</p>
+        </a>
+        <p class="text-white">@Lotus Branco</p>
+    </footer>
+    <script src="js/calcular.js"></script>
+    <script>$(document).ready(function () { $('body').bootstrapMaterialDesign(); });</script>
+  </body>
+</html>

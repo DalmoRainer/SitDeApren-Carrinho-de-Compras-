@@ -1,0 +1,29 @@
+.body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.navBar{
+    background-color: #003f5f;
+}
+
+.icone{
+    text-align: right;
+}
+
+.imagensC{
+    width: 100px;
+}
+
+.imagemPag{
+    width: 350px;
+    margin: 10px;
+}
+
+.imagemBol{
+    width: 25%;
+    margin: 10px;
+}
+
+.alinhar{
+    text-align: center;
+}
